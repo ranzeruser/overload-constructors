@@ -18,7 +18,7 @@ public class Cat {
         // 请在这里使用this()调用其他的构造器
     }
 
-    /** 创建之一指定名字、年龄和萌属性的猫 */
+    /** 创建一只指定名字、年龄和萌属性的猫 */
     public Cat(String name, int age, boolean cute) {
         this.name = name;
         this.age = age;
