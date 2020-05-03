@@ -11,7 +11,7 @@ public class CatTest {
     @Test
     public void constructorIsCallable() {
         String name = UUID.randomUUID().toString();
-        Cat cat = new Cat(name);
+        Cat cat = new Cat(nme);
 
         Assertions.assertEquals(name, cat.name);
         Assertions.assertEquals(1, cat.age);
